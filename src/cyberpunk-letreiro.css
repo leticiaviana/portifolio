@@ -14,7 +14,7 @@ a {
 }
 
 section {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .hero {
@@ -491,7 +491,7 @@ section {
 
 .hero-container {
   position: relative;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
 }
 
