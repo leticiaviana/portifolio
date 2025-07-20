@@ -29,4 +29,5 @@ Este é meu portfólio pessoal, desenvolvido com foco em design futurista, inter
 ## 🎨 Inspirações e Créditos
 
 Efeito de Letreiro: **https://codepen.io/mattgrosswork/pen/VwprebG**
+
 Botões Interativos: **https://uiverse.io/Navarog21/loud-bird-67**
