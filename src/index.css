@@ -3,6 +3,7 @@
 @import './cyberpunk-letreiro.css';
 @import './button.css';
 @import './scroll.css';
+@import './card.css';
 
 body {
   @apply bg-gray-900 text-gray-100;
@@ -14,6 +15,37 @@ body {
   }
   .btn-secondary {
     @apply px-8 py-3 border-2 border-black rounded-full hover:bg-gray-100 transition;
+  }
+}
+
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(34, 211, 238, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(34, 211, 238, 0.6); }
+}
+
+.neon-card {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.glow-effect {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px currentColor;
   }
 }
 

@@ -10,7 +10,7 @@ export default function HeroSection() {
         </div>
       </section>
 
-      <p className="text-xl md:text-2xl mb-12 text-yellow-100 max-w-2xl drop-shadow-lg drop-shadow-cyan-500/100">
+      <p className="text-xl md:text-2xl mb-50 text-yellow-100 max-w-2xl drop-shadow-lg drop-shadow-cyan-500/100">
         Turning ideas into real life projects.
       </p>
 
@@ -19,7 +19,7 @@ export default function HeroSection() {
           PROJECTS
         </button>
         <button className="px-8 py-3 border-2 border-black rounded-full hover:bg-gray-100 transition">
-          ABOUT ME
+          ABOUT 
         </button>
         <button className="px-8 py-3 border-2 border-black rounded-full hover:bg-gray-100 transition">
           CONTACT
