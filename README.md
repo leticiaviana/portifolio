@@ -1,4 +1,4 @@
-# ⚡ Letícia Viana — Portfólio Cyberpunk/Arcane ⚡
+# ⚡ Letícia Viana — Portfólio ⚡
 
 **https://leticiaviana.github.io/portifolio/**
 
