@@ -1,12 +1,41 @@
-# React + Vite
+# ⚡ Letícia Viana — Portfólio Cyberpunk/Arcane ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview do Portfólio](public/assets/me-cyberpunk.png)
 
-Currently, two official plugins are available:
+> Um portfólio imersivo com estética **cyberpunk** e influências de **Arcane**, criado para refletir minha personalidade, destacar minhas habilidades técnicas e minha trajetória como desenvolvedora em constante evolução.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌌 Visão Geral
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este é meu portfólio pessoal, desenvolvido com foco em design futurista, interatividade e performance. Ele foi criado para ser uma extensão visual da minha identidade como desenvolvedora, trazendo:
+
+- Interface temática com efeitos neon e atmosfera dark
+- Animações suaves e transições inspiradas em Arcane
+- Navegação fluida e responsiva em todas as telas
+- Sessões sobre mim, tecnologias, projetos e contato
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+![React](https://img.shields.io/badge/React-19-%2361DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF?logo=vite)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?logo=typescript)
+![Git](https://img.shields.io/badge/Git-%23F05033?logo=git)
+
+```json
+"dependencies": {
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "vite": "^5.0.8",
+  "tailwindcss": "^3.4.1",
+  "typescript": "^5.4.3"
+}
+
+
+## 🎨 Inspirações e Créditos
+
+![Efeito de Letreiro](https://codepen.io/mattgrosswork/pen/VwprebG)
+![Botões Interativos](https://uiverse.io/Navarog21/loud-bird-67)
