@@ -1,48 +1,87 @@
 const projects = [
   {
-    title: "APOHE",
-    description: "Contexto e procura de patologias em projetos",
-    tags: ["Web App", "Saúde"]
+    title: "Incomplete",
+    description: "soon",
+    tags: ["Web App", "Saúde", "IA"],
+    link: "https://exemplo.com/apohe"
   },
   {
-    title: "PROJETOT",
-    description: "Aprix assuntos relacionados a futuros digitais",
-    tags: ["Mobile", "UX"]
+    title: "Incomplete",
+    description: "soon",
+    tags: ["Web App", "Saúde", "IA"],
+    link: "https://exemplo.com/apohe"
   },
   {
-    title: "GENICIDADE",
-    description: "Tecnologia genética projetada para assentamentos",
-    tags: ["IA", "Biotecnologia"]
-  }
-]
+    title: "Incomplete",
+    description: "soon",
+    tags: ["Web App", "Saúde", "IA"],
+    link: "https://exemplo.com/apohe"
+  },
+];
 
 export default function ProjectsSection() {
   return (
-    <section className="py-20 px-6">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center">
-          PROJETOS
+    <section className="py-50 px-6 bg-gray-900/50 relative">
+      {/* Efeitos de fundo */}
+      <div className="absolute inset-0"></div>
+      
+      <div className="max-w-6xl mx-auto relative z-10">
+        <h2 className="text-4xl font-bold mb-16 text-center text-cyan-300 border-b-2 border-cyan-400/50 pb-2 inline-block">
+          PROJECTS_
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-              <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-              <p className="text-gray-600 mb-4">{project.description}</p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map((tag, i) => (
-                  <span key={i} className="text-xs bg-gray-100 px-2 py-1 rounded">
-                    {tag}
-                  </span>
-                ))}
+            <a 
+              key={index} 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group relative overflow-hidden rounded-lg border-2 border-cyan-400/30 bg-gray-900 p-6 transition-all hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/20"
+            >
+              {/* Efeito de hover */}
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(34,211,238,0.1)_0%,_transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              
+              {/* Conteúdo do card */}
+              <div className="relative z-10">
+                {/* Título com efeito */}
+                <h3 className="text-2xl font-mono font-bold mb-3 text-cyan-400 group-hover:text-cyan-300 transition-colors">
+                  {project.title}
+                </h3>
+                
+                {/* Descrição */}
+                <p className="text-gray-300 mb-5 group-hover:text-gray-100 transition-colors">
+                  {project.description}
+                </p>
+                
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tags.map((tag, i) => (
+                    <span 
+                      key={i} 
+                      className="text-xs font-mono px-3 py-1 rounded-full bg-cyan-900/50 text-cyan-300 border border-cyan-400/30"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                
+                {/* Botão */}
+                <div className="flex items-center text-cyan-400 group-hover:text-cyan-200 transition-colors">
+                  <span className="mr-2 font-mono text-sm">ACESSAR</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                </div>
               </div>
-              <button className="text-sm font-medium text-blue-600 hover:text-blue-800">
-                VER PROJETO →
-              </button>
-            </div>
+              
+              {/* Efeito nos cantos */}
+              <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            </a>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
