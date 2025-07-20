@@ -1,6 +1,6 @@
 # ⚡ Letícia Viana — Portfólio Cyberpunk/Arcane ⚡
 
-![Preview do Portfólio](public/assets/me-cyberpunk.png)
+**https://leticiaviana.github.io/portifolio/**
 
 > Um portfólio imersivo com estética **cyberpunk** e influências de **Arcane**, criado para refletir minha personalidade, destacar minhas habilidades técnicas e minha trajetória como desenvolvedora em constante evolução.
 
@@ -25,17 +25,8 @@ Este é meu portfólio pessoal, desenvolvido com foco em design futurista, inter
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?logo=typescript)
 ![Git](https://img.shields.io/badge/Git-%23F05033?logo=git)
 
-```json
-"dependencies": {
-  "react": "^19.1.0",
-  "react-dom": "^19.1.0",
-  "vite": "^5.0.8",
-  "tailwindcss": "^3.4.1",
-  "typescript": "^5.4.3"
-}
-
 
 ## 🎨 Inspirações e Créditos
 
-![Efeito de Letreiro](https://codepen.io/mattgrosswork/pen/VwprebG)
-![Botões Interativos](https://uiverse.io/Navarog21/loud-bird-67)
+Efeito de Letreiro: **https://codepen.io/mattgrosswork/pen/VwprebG**
+Botões Interativos: **https://uiverse.io/Navarog21/loud-bird-67**
